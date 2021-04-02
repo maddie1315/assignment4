@@ -45,7 +45,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
   padding: 10px 0;
 }
 
@@ -53,6 +53,11 @@ p {
   font-family: 'louis-george-cafe', sans-serif;
   font-size: 16px;
   line-height: 1.5em;
+}
+
+a {
+  font-family: 'louis-george-cafe-bold', sans-serif;
+  font-size: 20px;
 }
 
 .name {
@@ -78,13 +83,15 @@ header nav li {
 }
 
 header a {
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'louis-george-cafe', sans-serif;
-  color: white;
-  font-size: 16px;
   letter-spacing: 0.1em;
   margin-right: 20px;
+}
+
+a:hover {
+  color: darkred;
 }
 
 /*==========
@@ -131,13 +138,18 @@ Main Content Styling
   margin: 30px 0 0 0;
 }
 
-/*==========
-
-Button Styling
-
-==========*/
+.official-page {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+  padding-left: 10px;
+}
 
 .official-page a {
+  color: white;
   text-decoration: none;
-  color: black;
+  font-size: 16px;
+}
+
+.official-page a:hover {
+  color: darkred;
 }
