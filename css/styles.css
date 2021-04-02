@@ -1,0 +1,40 @@
+@font-face {
+  font-family:'louis-george-cafe';
+  src: url('../fonts/louis-george-cafe.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'louis-george-cafe-bold';
+  src: url('../fonts/louis-george-cafe-bold.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-family: 'louis-george-cafe', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.name {
+  font-family: 'louis-george-cafe-bold', sans-serif;
+}
