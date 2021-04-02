@@ -1,3 +1,13 @@
+/* Universal Styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Text Styling */
+
 @font-face {
   font-family:'louis-george-cafe';
   src: url('../fonts/louis-george-cafe.ttf') format('truetype');
@@ -23,10 +33,12 @@ h1 {
 
 h2 {
   font-size: 24px;
+  padding: 10px 0;
 }
 
 h3 {
   font-size: 18px;
+  padding: 10px 0;
 }
 
 p {
@@ -37,4 +49,53 @@ p {
 
 .name {
   font-family: 'louis-george-cafe-bold', sans-serif;
+}
+
+/* Header Styling */
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  margin-right: 20px;
+}
+
+/* Hero Section styling */
+
+.hero {
+  background: url("../images/thebandcamino_wswt.jpg") right/cover no-repeat fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 1px 1px 4px black;
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+}
+
+/* Button Styling */
+
+.official-page a {
+  text-decoration: none;
+  color: black;
 }
